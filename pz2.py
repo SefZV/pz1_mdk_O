@@ -11,7 +11,8 @@ class Number:
 def main():
     number = []
     while True:
-        s = input("Введите число или Enter чтобы закончить программу")
+        s = input("Введите число или Enter чтобы закончить программу ")
+        
         if s == "":
             break
 
@@ -20,7 +21,6 @@ def main():
 
         except ValueError:
             print("Произошла ошибка повторите попытку")
-
 
     if not number:
         print("Не одного числа не было введено")
